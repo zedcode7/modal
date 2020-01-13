@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css" />
+  </head>
+  <script>
+    function form_submit(){
+      if(form-input.input.value==""){
+        alert("fill form correctly");
+        return false;
+      }
+    }
+  </script>
+
+  <body>
+    <!-----pop up inner-->
+    <div id="inner_mod_b">
+      <div class="modal_ind">
+        <div class="inn_mod_hed">
+          <h3>Select Industry</h3>
+          <span class="closebutton_inner">&times;</span>
+        </div>
+        <div class="servises">
+          <a href="#" class="home c "
+            ><img src="./home.png" alt="home cleaning" />home cleaning</a
+          >
+          <a href="#" class="stem c"
+            ><img src="./stem.png" alt="stem cleaning" />stem cleaning</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!----popup end-->
+    <section class="showcas">
+      <div class="right_content">
+        <span class="contact_text ">Give Us A Call:</span>
+        <a class="contact_link" href="tel: 888-637-7774">888-637-7774</a>
+      </div>
+
+      <div class="show_tec">
+        <div class="title">
+          <h1 style="color: rgb(14, 14, 13);" class="h1_title">
+            Killeen Steam Team
+          </h1>
+        </div>
+        <div class="sub_title">
+          <h4 style="color: rgb(11, 11, 11);">
+            House Cleaning Services and Carpet Cleaning Services thats
+            affordable
+          </h4>
+        </div>
+
+        <br /><br />
+      </div>
+      <div class="form_of">
+        <form action="MAILTO:qlime26@gmail.com?subject=Get Me price For Booking&background=#444 " method="POST"  enctype="application/x-www-form-urlencoded" >
+        <div class="inpts">
+          <!-----grid-->
+
+          <div class="f-element">
+            <label>First Name<span class="required">*</span></label>
+            <p></p>
+            <div class="form-input">
+              <span class="wpcf7-form-control-wrap your-name"
+                ><input
+                  type="text"
+                  name= " customer name"
+                  value=""
+                  size="40"
+                  class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                  aria-required="true"
+                  aria-invalid="false"
+                  required=true
+              /></span>
+            </div>
+            <p></p>
+          </div>
+          <div class="f-element">
+            <label>Email<span class="required">*</span></label>
+            <p></p>
+            <div class="form-input">
+              <span class="wpcf7-form-control-wrap your-email"
+                ><input
+                  type="email"
+                  name="customer email"
+                  value=""
+                  size="40"
+                  class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+                  aria-required="true"
+                  aria-invalid="false"
+                  required=true
+              /></span>
+            </div>
+            <p></p>
+          </div>
+          <div class="f-element">
+            <label>Phone Number<span class="required">*</span></label>
+            <p></p>
+            <div class="form-input">
+              <span class="wpcf7-form-control-wrap phone"
+                ><input
+                  type="tel"
+                  name="phone number"
+                  value=""
+                  size="40"
+                  class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
+                  aria-required="true"
+                  aria-invalid="false"
+                  required=true
+              /></span>
+            </div>
+            <p></p>
+          </div>
+        </div>
+        <div class="inpts selects">
+          <div class="f-element">
+            <label>Type of service</label>
+            <p></p>
+            <div class="form-input">
+              <span class="wpcf7-form-control-wrap services"
+                ><select
+                  name="type of service you want"
+                  class="wpcf7-form-control wpcf7-select"
+                  aria-invalid="false"
+                >
+                  <option value="Regular Cleaning">Regular Cleaning</option>
+                  <option value="Deep Cleaning">Deep Cleaning</option>
+                  <option value="End of Tenancy Clean"
+                    >End of Tenancy Clean</option
+                  >
+                </select></span
+              >
+            </div>
+            <p></p>
+          </div>
+          <div class="f-element">
+            <label>Bedrooms</label>
+            <p></p>
+            <div class="form-input">
+              <span class="wpcf7-form-control-wrap bed bedrooms"
+                ><select
+                  name="Bedrooms required"
+                  class="wpcf7-form-control wpcf7-select"
+                  aria-invalid="false"
+                >
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select></span
+              >
+            </div>
+            <p></p>
+          </div>
+          <div class="f-element">
+            <label>Bathrooms</label>
+            <p></p>
+            <div class="form-input">
+              <span class="wpcf7-form-control-wrap bathrooms"
+                ><select
+                  name="Bathrooms required"
+                  class="wpcf7-form-control wpcf7-select"
+                  aria-invalid="false"
+                >
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select></span
+              >
+            </div>
+            <p></p>
+          </div>
+        </div>
+
+        <p>
+          <input
+            id="get_ind_modal"
+            type="submit"
+            value="Get a price"
+            class="wpcf7-form-control wpcf7-submit"
+            onsubmit="
+            function form_submit()
+            
+            "
+          />
+        </p>
+      </form>
+      </div>
+      <div class="show_btn">
+        <a href="#" id="get_price" class="button_show">View price</a>
+        <a href="#" class="button_show">Our Service</a>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
